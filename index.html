@@ -168,6 +168,7 @@ body {
 			} else {
 				deathSound = game.add.audio('die');
 				deathSound.play();
+				bgmSound.stop();
 				
 				player.frame = 6;
 				player.body.enable = false;
